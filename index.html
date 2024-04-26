@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge_22114629</title>
+    <link rel="stylesheet" type="text/css" href="style.cssgi">
+</head>
+
+<body>
+
+    <h1>Challenge_22114629</h1>
+    <table id="form1">
+        <thead>
+            <tr>
+                <th colspan="4" id="thead">Daftar Buku</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3"><img src="BulanJuni.jpg" width="200"></td>
+                <td>Judul</td>
+                <td>:</td>
+                <td>Bulan Juni</td>
+            </tr>
+            <tr>
+                <td>Harga</td>
+                <td>:</td>
+                <td>Rp 80.000,00</td>
+            </tr>
+            <tr>
+                <td>Pengarang</td>
+                <td>:</td>
+                <td>Sapardi Djoko Samono</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br> <br>
+
+    <table id="form2">
+        <caption>Isilah formulir dibawah ini:</caption>
+        <tbody>
+            <tr>
+                <td class="row"><label for="name">Nama:</label></td>
+                <td class="row"><input type="text" name="nameUser" id="name" value="Sevalino Rofiq Ismail"></td>
+            </tr>
+            <tr>
+                <td class="row"><label for="pass">Password:</label></td>
+                <td class="row"><input type="password" name="passUser" id="pass"></td>
+            </tr>
+            <tr>
+                <td class="row"><p>Jenis Kelamin:</p></td>
+                <td class="row">
+                    <input type="radio" name="genderUser" id="gender1" value="lakiLaki" checked>
+                    <label for="gender1">Laki-laki</label>
+                    <input type="radio" name="genderUser" id="gender2" value="perempuan">
+                    <label for="gender2">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="row"><p>Hobi:</p></td>
+                <td class="row">
+                    <input type="checkbox" name="hobi1" id="mengaji">
+                    <label for="mengaji">Mengaji</label>
+                    <input type="checkbox" name="hobi2" id="menulis" checked>
+                    <label for="menulis">Menulis</label>
+                    <input type="checkbox" name="hobi3" id="memancing">
+                    <label for="memancing">Memancing</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="row"><label for="asalKota">Asal Kota:</label></td>
+                <td class="row">
+                    <select name="asalKota" id="asalKota">
+                        <option value="jakarta">Jakarta</option>
+                        <option value="yogyakarta" selected>Yogyakarta</option>
+                        <option value="surabaya">Surabaya</option>
+                        <option value="malang">Malang</option>
+                        <option value="Kalimantan">Kalimantan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="row"><label for="komentar">Komentar Anda:</label></td>
+                <td class="row"><textarea name="komenUser" id="komentar" cols="30" rows="5">Tuliskan Komentar Anda</textarea></td>
+            </tr>
+            <tr>
+                <td class="row"><input type="button" value="Mulai Proses!"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
